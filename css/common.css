@@ -1,0 +1,158 @@
+/* --------------------------top部分样式 */
+
+/* body {
+    height: 3000px;
+} */
+
+.top {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.top .tcontent {
+    height: 30px;
+    /* ps */
+    background-color: pink;
+}
+
+.top .tcontent .tleft {
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    line-height: 30px;
+}
+
+.top .tcontent .tleft a {
+    color: #cb1224;
+    margin-left: 5px;
+}
+
+.top .tcontent ul li {
+    float: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.top .tcontent ul li a {
+    margin: 0 16px;
+}
+
+.top .tcontent ul li a .icon-moreunfold {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.top .tcontent ul li .last {
+    margin-right: 0px;
+}
+
+/* --------------------------search部分样式 */
+
+.search {
+    height: 80px;
+    /* background-color: pink; */
+    margin-top: 26px;
+}
+
+.search .logo {
+    height: 62px;
+    width: 171px;
+    background: url(../images/logo.png)
+}
+
+.search .cart {
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dbdbdb;
+    background-color: #f6f6f6;
+    margin-right: 63px;
+    text-align: center;
+    line-height: 36px;
+    position: relative;
+}
+
+.search .cart .icon-cart {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search .cart .icon-more {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.search .num {
+    /* width: 16px; */
+    min-width: 16px;
+    height: 14px;
+    background-color: #eb0416;
+    border-radius: 6px 6px 6px 0;
+    position: absolute;
+    top: -8px;
+    left: 104px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.search .cart .h {
+    width: 200px;
+    height: 100px;
+    background-color: #f6f6f6;
+    position: absolute;
+    top: 34px;
+    right: -1px;
+    border: 1px solid #dbdbdb;
+    display: none;
+}
+
+.search .cart .h .line {
+    width: 140px;
+    height: 1px;
+    background-color: #f6f6f6;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.search .cart:hover .h{
+    display: block; 
+}
+
+.search .center {
+    padding-left: 347px;
+}
+
+.search .center input[type="text"] {
+    width: 458px;
+    height: 36px;
+    border: 2px solid #aa121e;
+    box-sizing: border-box;
+    /* 行内块元素顶部对齐 */
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.search .center input[type="button"] {
+    width: 80px;
+    height: 36px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #aa121e;
+}
+
+.search .center ul {
+    padding-top: 8px;
+}
+
+.search .center ul li {
+    float: left;
+}
+
+.search .center ul li a {
+    padding: 0 12px;    
+}
+
+.search .center ul li:first-child a {
+    color: red;
+}
